@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Styles</a>
+        <a class="navbar-brand" href="#">TP Profile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +25,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="https://facebook.com">Facebook</a>
                 <a class="dropdown-item" href="https://linkedin.com">LinkedIn</a>
-                <a class="dropdown-item" href="https://github.com/Stephen.Brooks220413">Github</a>
+                <a class="dropdown-item" href="https://twitter.com">Twitter</a>
               </div>
             </li>
           </ul>
