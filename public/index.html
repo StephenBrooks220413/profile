@@ -7,6 +7,12 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
+  <style>
+    footer i {
+      font-size:26px;
+      color:purple;
+    }
+  </style>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -14,7 +20,7 @@
     <div id="app"></div>
     <div class="contact-content text-center">
       <div class="container">
-        <h1 class="display-4">Contact Us</h1>
+        <h1 class="display-4">Contact Me</h1>
       </div>
       <div class="contact-content container text-center">
         <form name="contact" netlify>
@@ -30,41 +36,14 @@
         </form>
       </div>
     </div>
-    <br><br><br>
-    <div class="text-center download">
-      Resume 
-      <a href="resume.doc" dowlnload="resume.doc">
-        <i class="fas fa-download"></i>
-      </a> <br><br>
-      <a href="https://github.com/StephenBrooks220413/profile.git" target="_blank">Git Repository</a>
-    </div>
-    <br><br><br><br><br><br><br>
+    
+    <br><br><br><br>
+    
     <footer class="footer">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <h1>Locate Us</h1>
-            <address>
-              1151 Main St - Any City, State <br>
-              555-555-5555
-            </address>
-          </div>
-          <div class="col-md-4">
-            <h1>About</h1>
-            <h5>
-              Company Policy <br>
-              Careers
-            </h5>
-          </div>
-          <div class="col-md-4">
-            <h1>Support</h1>
-            <h5>
-              Message Owner <br>
-              Message Developer
-            </h5>
-          </div>
-        </div>
-      </div>
+      <hr>
+        &copy; 2020 teleperformance.com/careers -- <a href="#">support</a> / <a href="#">supervisor</a><br>
+        Github Repository <a href="https://github.com/StephenBrooks220413/profile.git" target="_blank"><i class="fab fa-github"></i></a>
+   
     </footer>
     <!-- built files will be auto injected -->
     <!-- font awesome -->
