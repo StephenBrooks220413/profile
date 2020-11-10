@@ -45,22 +45,7 @@
           <button class="btn btn-primary">More Info</button>
         </center>
       </div>
-      <div class="contact-content text-center">
-        <div class="container">
-          <h1 class="display-4">Contact Us</h1>
-        </div>
-        <div class="contact-content container text-center">
-          <form>
-            <input type="text" placeholder="Full Name" class="form-control" id="inputName"/>
-            <br/>
-            <input type="email" placeholder="Email" class="form-control" id="inputEmail"/>
-            <br/>
-            <textarea type="text" placeholder="Your Message" rows="4" cols="25" spellcheck="true" class="form-control" id="inputName"></textarea>
-            <br/>
-            <button class="btn btn-primary">Send Message</button>
-          </form>
-        </div>
-      </div>
+      
     </div>
 </template>
 

@@ -12,12 +12,25 @@
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <div class="download text-center">
-      <a href="WebDeveloper.doc" download="WebDeveloper.doc">
-        Download Resume <i class="fas fa-download"></i>
-      </a> <br>
-      <a href="https://github.com/StephenBrooks220413/vue-fashion.git" target="_blank">Repository</a>
+    <div class="contact-content text-center">
+      <div class="container">
+        <h1 class="display-4">Contact Us</h1>
+      </div>
+      <div class="contact-content container text-center">
+        <form name="contact" netlify>
+          <input type="text" name="name" placeholder="Full Name" class="form-control" id="inputName"/>
+          <br/>
+          <input type="email" name="email" placeholder="Email" class="form-control" id="inputEmail"/>
+          <br/>
+          <textarea type="text" name="message" placeholder="Your Message" rows="4" cols="25" spellcheck="true" class="form-control" id="inputName"></textarea>
+          <br/>
+          <label for="file">Files:</label> <input name="file" type="file">
+          <br><br>
+          <button class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
     </div>
+    <br><br><br><br><br><br><br>
     <footer class="footer">
       <div class="container">
         <div class="row text-center">
